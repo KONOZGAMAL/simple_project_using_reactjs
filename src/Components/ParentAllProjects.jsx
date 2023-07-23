@@ -4,7 +4,6 @@ import Data from './Data';
 import Style from './ComponentAll.module.css';
 export default function ParentAllProjects() {
     const navigate = useNavigate() 
-    console.log(window.width);
   return (
     <div className={Style.parent}>
         <div className={Style.title}>

@@ -34,12 +34,5 @@ const data = [
     nameproject: "Phone",
     alt:'logo5',
   },
-  {
-    id: 6,
-    url: "./Img/phone.jpeg",
-    link: "/navbar",
-    nameproject: "AnimatedContdown",
-    alt:'logo6',
-  },
 ];
 export default data;
