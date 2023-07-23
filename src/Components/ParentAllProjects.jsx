@@ -1,9 +1,9 @@
 import {React } from 'react';
-// import {useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 import Data from './Data';
 import Style from './ComponentAll.module.css';
 export default function ParentAllProjects() {
-    // const navigate = useNavigate() onClick={()=>{navigate(e.link)}}
+    const navigate = useNavigate() 
     console.log(window.width);
   return (
     <div className={Style.parent}>
@@ -16,7 +16,7 @@ export default function ParentAllProjects() {
             Data.map((e)=>(
                 <div key={e.id} className={Style.item}>
                     <img src={e.url} className={Style.imgs} alt={e.alt}/>
-                    <button to={e.link} className={Style.btn}>{e.nameproject}</button>
+                    <button to={e.link} onClick={()=>{navigate(e.link)}} className={Style.btn}>{e.nameproject}</button>
                 </div>
             ))
         }
