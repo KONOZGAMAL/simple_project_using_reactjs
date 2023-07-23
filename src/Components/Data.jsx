@@ -15,16 +15,16 @@ const data = [
   },
   {
     id: 3,
-    url: "./Img/randomnumber.jpeg",
-    link: "/randomnumber",
-    nameproject: "Random Number",
+    url: "./Img/count.jpeg",
+    link: "/count",
+    nameproject: "Count",
     alt:'logo3',
   },
   {
     id: 4,
-    url: "./Img/count.jpeg",
-    link: "/count",
-    nameproject: "Count",
+    url: "./Img/randomnumber.jpeg",
+    link: "/randomnumber",
+    nameproject: "Random Number",
     alt:'logo4',
   },
   {
