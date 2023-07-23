@@ -9,7 +9,7 @@ const data = [
   {
     id: 2,
     url: "./Img/list.jpeg",
-    link: "/parenttodo",
+    link: "/todolist",
     nameproject: "To Do List",
     alt:'logo2',
   },
